@@ -8,7 +8,33 @@ namespace Strings
 {
     class Program
     {
-        static void Main(string[] args)
+
+        static void Main2(string[] args)
+        {
+            //literal
+            string fullName = "     Büşra Nur Muslu      Kahraman ";
+
+            fullName = fullName.Trim();
+
+            string[] parts = fullName.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int lastIndex = parts.Length - 1;
+
+            Console.WriteLine(parts[lastIndex]);
+            string lastItem = parts[lastIndex];
+
+            lastItem = lastItem.ToLower();
+            Console.WriteLine(lastItem);
+            for (int i = 0; i < lastItem.Length; i++)
+            {
+                Console.WriteLine(lastItem[i]);
+            }
+            string replaceName = fullName.Replace("Nur", "");
+            Console.WriteLine(replaceName);
+            
+        }
+
+        static void Main1(string[] args)
         {
             //Intro();
             string sentence = "My name is BÜşra Nur Muslu";

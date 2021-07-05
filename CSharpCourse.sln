@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{2EA1614F-E106-4FE9-8D1C-959A91B48F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "..\udemy\CSharpCourse2\Exceptions\Exceptions.csproj", "{4CFCA703-1D3B-4FAA-82D7-BD1304C857B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{2EA1614F-E106-4FE9-8D1C-959A91B48F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA1614F-E106-4FE9-8D1C-959A91B48F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA1614F-E106-4FE9-8D1C-959A91B48F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFCA703-1D3B-4FAA-82D7-BD1304C857B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFCA703-1D3B-4FAA-82D7-BD1304C857B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFCA703-1D3B-4FAA-82D7-BD1304C857B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFCA703-1D3B-4FAA-82D7-BD1304C857B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
